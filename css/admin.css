@@ -1,0 +1,187 @@
+/* 
+    Document   : admin
+    Created on : Aug 23, 2013, 12:21:02 PM
+    Author     : Zoom
+    Description:
+        Purpose of the stylesheet follows.
+*/
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.Headermenu
+{
+    width: 100%;
+    height: 60px;
+    background-color: #EDEDED;
+}
+#wrapper { 
+    width: 1100px;
+    margin: 0 auto;
+    border-left: 1px solid #EDEFF4;
+    border-right: 1px solid #EDEFF4;
+    border-bottom: 1px solid #EDEFF4;
+    margin-bottom: 40px;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    color: #000044;
+}
+#topMessage
+{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+table
+{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 30px;
+    line-height: 1.5em;
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-style: italic;
+    font-weight: bold;
+}
+h2 {
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #333333;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+}
+h3 {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #555555;
+    font-family: Courier New;
+    font-style: normal;
+    font-weight: bold;
+}
+p {
+    font-size: 14px;
+    line-height: 1.5em;
+    color:777777;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+}
+.box {
+    background: #000000;
+}
+#loginOut
+{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #EDEFF4;
+    border: 1px solid #A9A9A9;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#loginIN
+{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #A9A9A9;
+    border: 1px solid #A9A9A9;
+    border-radius: 5px;
+}
+#loginIN p, h1
+{
+    margin-left: 15px;
+}
+.txt
+{
+    margin: 2px;
+    padding: 2px;
+    width: 250px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 12px;
+}
+#identity
+{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#password
+{
+    margin-left: 44px;
+    margin-bottom: 10px;
+}
+#remember
+{
+    margin-left: 14px;
+    margin-bottom: 10px;
+}
+#password_confirm
+{
+    margin-bottom: -20px;
+}
+.inputText
+{
+    width: 200px;
+    border-radius: 2px;
+    border: 1px solid #A9A9A9;
+    padding: 2px;
+    margin: 2px;
+}
+
+.navigation {
+display: block;
+float: left;
+width: 100%;
+}
+.navigation * {
+padding:0;
+margin:0;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+text-transform: uppercase;
+}
+.navigation ul {
+display: block;
+float: left;
+padding: 10px 0 0 0;
+margin: 8px 0 0 15px;
+}
+.navigation ul li {
+list-style: none;
+float: left;
+margin: 0 0 0 5px;
+}
+
+.navigation ul li a {
+
+display: block;
+padding: 0 13px 0 0;
+color: #578ba0;
+text-decoration: none
+}
+.navigation ul li.selected a,
+.navigation ul li.hover a {
+
+ color: #578ba0;
+ }
+
+.navigation ul li a span {
+
+ display: block;
+ padding: 15px 10px 10px 15px;
+ }
+.navigation ul li.selected a span,
+.navigation ul li.hover a span {
+
+ }
